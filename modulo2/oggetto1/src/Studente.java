@@ -1,10 +1,10 @@
 public class Studente {
 
-    private String nome;
+    public String nome;
 
-    private String cognome;
+    public String cognome;
 
-    private int id;
+    public int id;
 
     public Studente(String nome, String cognome, int id) {      //Costruttore con requisiti minimi accettabili
         this.nome = nome;
