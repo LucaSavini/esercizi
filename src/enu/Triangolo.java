@@ -3,10 +3,12 @@ package enu;
 public class Triangolo extends Forma {
     public int x;
     public int y;
+    public Shape tipo;
 
     public Triangolo(int x, int y) {
         this.x = x;
         this.y = y;
+        this.tipo = tipo;
     }
 
 

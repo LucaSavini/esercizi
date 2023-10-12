@@ -3,10 +3,12 @@ package enu;
 
         public int x;
         public int y;
+        public Shape tipo;
 
         public Rettangolo(int x, int y) {
             this.x = x;
             this.y = y;
+            this.tipo = tipo;
         }
 
         public void calcolaArea() {

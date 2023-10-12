@@ -2,10 +2,7 @@ package enu;
 
 public class Main {
 
-    public enum Shape {
-        Rettangolo,
-        Triangolo
-    }
+
 
     public static void main(String[] args) {
 
