@@ -8,7 +8,7 @@ public class Main {
       //System.out.println(test);
       test = "Mario";   // sovrascrizione momentanea
       System.out.println(test);
-      ValoreUni valoreUni = new ValoreUni(test.toLowerCase(),20);
+      ValoreUni valoreUni = new ValoreUni(test.toLowerCase(),2);
       StringBuilder sb = new StringBuilder();
       sb.append(valoreUni.calcoloUni());
 
