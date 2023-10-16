@@ -7,7 +7,6 @@ public class Main {
         Triangolo triangolo = new Triangolo(5, 10);
 
         rettangolo.calcolaArea();
-        triangolo.setX(7);
         triangolo.calcolaArea();
 
     }

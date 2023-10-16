@@ -12,10 +12,13 @@ public class Main {
       StringBuilder sb = new StringBuilder();
       sb.append(valoreUni.calcoloUni());
 
-      //String res = valoreUni.calcoloUni(x);
+
 
       System.out.println(sb);
 
   }
 
 }
+
+
+
