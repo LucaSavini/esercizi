@@ -6,7 +6,7 @@ public class Main {
 
       String test = "Luca";
       //System.out.println(test);
-      test = "Mario";   // sovrascrizione momentanea
+      //test = "Mario";   // sovrascrizione momentanea
       System.out.println(test);
       ValoreUni valoreUni = new ValoreUni(test.toLowerCase(),2);
       StringBuilder sb = new StringBuilder();
