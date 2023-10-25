@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         int [] numeri = new int [5];
         int [] numeri2 = new int [5];
+        int [] numeri3 = {4,6,8,9};
         System.out.println(Arrays.toString(fillArray(numeri)));
         System.out.println(add(numeri));
         System.out.println(Arrays.toString(confronto(numeri, numeri2)));

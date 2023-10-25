@@ -22,7 +22,7 @@ public class Main {
         System.out.println("contenuto array");
 // stampa il contenuto dell'array
         for (int i = 0; i < arrli.size(); i++)
-            System.out.println(arrli.get(i).getCognome() + " ");
+            System.out.println(arrli.get(i).getCognome());
 // rimuove l'elemento in posizione 1
         arrli.remove(1);
         System.out.println("NUOVO contenuto array");
@@ -30,7 +30,7 @@ public class Main {
 
 // stampa il nuovo contenuto dell'array
         for (int i = 0; i < arrli.size(); i++)
-            System.out.println(arrli.get(i).getCognome() + " ");
+            System.out.println(arrli.get(i).getCognome());
     }
 }
 

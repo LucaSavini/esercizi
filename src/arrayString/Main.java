@@ -11,8 +11,9 @@ public class Main {
 
         System.out.println(occ(words));
         System.out.println(minLength(words));
-       // counterElements(words);
+        counterElements(words);
         System.out.println(occChar(words));
+        System.out.println(Arrays.toString(arrInt(words)));
 
         //Scanner scan = new Scanner(System.in);
 
@@ -70,5 +71,12 @@ public class Main {
         } return counter;
     }
 
+    public static int[] arrInt (String [] arr){
+        int [] arrNum = new int[arr.length];
+        for(int i = 0; i < arr.length; i++){
+            arrNum[i] = arr[i].length();
+        }
+        return arrNum;
+    }
 
 }

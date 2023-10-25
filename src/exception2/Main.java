@@ -3,7 +3,7 @@ package exception2;
 public class Main {
     public static void main(String[] args) {
 
-        char x = 'a';
+        char x = '1';
         try {
             check(x);
         } catch (Exception e) {
