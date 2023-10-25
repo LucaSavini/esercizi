@@ -11,6 +11,7 @@ public class Main {
         System.out.println("Set originale : " );
         fillSet(words);
         System.out.println("Set aggiornato : " + checkSet(words,stringa));
+        clearSet(words);
     }
 
     public static HashSet<String> fillSet(HashSet<String> words){
@@ -33,4 +34,16 @@ public class Main {
         }
         return words;
     }
+
+    public static  HashSet<String> clearSet(HashSet<String> words){
+        words.clear();
+        if(words.isEmpty()){
+            System.out.println("L'Hashet è vuoto");
+        } else {
+            System.out.println("L'Hashset è pieno");
+        }
+        return words;
+    }
+
+
 }

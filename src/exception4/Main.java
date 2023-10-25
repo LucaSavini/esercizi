@@ -6,7 +6,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         int[] array = new int[10];
-        int index = 9;
+        int index = 11;
         int den = 0;
 
         System.out.println(Arrays.toString(fillArr(array)));
@@ -33,19 +33,19 @@ public class Main {
         return arr;
     }
 
-    public static double div(int[] arr, int den) throws Exception {
+    public static double div(int[] arr, int den) {
         if (den > 0) {
             return arr[2] / den;
-        } else throw new Exception("Impossibile dividere per 0");
+        } else throw new ArithmeticException("Impossibile dividere per 0");
     }
 
-    public static void checkIndex(int[] arr, int index) throws Exception {
+    public static void checkIndex(int[] arr, int index) {
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
             count++;
         }
         if (count < index) {
-            throw new Exception("L' indice x è al di fuori dell' array");
+            throw new ArrayIndexOutOfBoundsException("L' indice x è al di fuori dell' array");
         }
     }
 
